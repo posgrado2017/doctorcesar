@@ -22,7 +22,67 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-  
+  <style>
+division1 {
+  align-items: center;
+  background: #E3E3E3;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+.slider::before, .slider::after {
+  content: "";
+  height: 250px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+          animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 200px;
+  width: 250px;
+}
+</style>
   
   
 </head>
@@ -60,16 +120,71 @@
     </nav>
 </section>
 
+<br>
+<br>
+<br>
+<br>
+
+  <div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="assets/images1/1.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/2.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/3.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/4.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/5.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/6.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/7.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/8.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/9.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/10.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/11.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/12.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/13.jpg" height="200" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/images1/14.jpg" height="200" width="250" alt="">
+		</div>
+	</div>
+</div>
+
+
+
+
 <section data-bs-version="5.1" class="header11 cid-sFF0SGinka" id="header11-1">
 
-    
+ 
 
     
 
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-6 image-wrapper">
-                <img class="w-100" src="assets/images/img-478-1256x837.jpg" alt="Mobirise Website Builder">
+                <img class="w-100" src="assets/images/img-478-1256x837.jpg" alt="">
             </div>
             <div class="col-12 col-md">
                 <div class="text-wrapper text-center">
@@ -84,364 +199,11 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="slider2 cid-tWcvCS51ku" id="slider2-a">
-    
 
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-9">
-                <div class="carousel slide carousel-fade" id="tWcLtlJCRr" data-ride="carousel" data-bs-ride="carousel" data-interval="3000" data-bs-interval="3000">
-                    <ol class="carousel-indicators">
-                        <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li><li data-slide-to="1" data-bs-slide-to="1" class="" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li><li data-slide-to="2" data-bs-slide-to="2" class="" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li><li data-slide-to="3" data-bs-slide-to="3" class="" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li><li data-slide-to="4" data-bs-slide-to="4" class="" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li><li data-slide-to="5" data-bs-slide-to="5" class="" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li><li data-slide-to="6" data-bs-slide-to="6" class="" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li><li data-slide-to="7" data-bs-slide-to="7" class="" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li><li data-slide-to="8" data-bs-slide-to="8" class="" data-target="#tWcLtlJCRr" data-bs-target="#tWcLtlJCRr"></li>
-                        
-                        
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item slider-image item active">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/img-477-1600x1066.jpg" alt="Mobirise Website Builder" data-slide-to="0" data-bs-slide-to="0">
-                                
-                            </div>
-                        </div><div class="carousel-item slider-image item">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/dsc-431-1600x1071.jpg" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1">
-                                
-                            </div>
-                        </div><div class="carousel-item slider-image item">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/20190306-174138-1600x1200.jpg" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2">
-                                
-                            </div>
-                        </div><div class="carousel-item slider-image item">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/img-456-1600x1067.jpg" alt="Mobirise Website Builder" data-slide-to="3" data-bs-slide-to="3">
-                                
-                            </div>
-                        </div><div class="carousel-item slider-image item">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/img-281-1600x1067.jpg" alt="Mobirise Website Builder" data-slide-to="4" data-bs-slide-to="4">
-                                
-                            </div>
-                        </div><div class="carousel-item slider-image item">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/img-459-1600x1067.jpg" alt="Mobirise Website Builder" data-slide-to="5" data-bs-slide-to="5">
-                                
-                            </div>
-                        </div><div class="carousel-item slider-image item">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/img-505-1600x1067.jpg" alt="Mobirise Website Builder" data-slide-to="6" data-bs-slide-to="6">
-                                
-                            </div>
-                        </div><div class="carousel-item slider-image item">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/dsc-164-1600x1071.jpg" alt="Mobirise Website Builder" data-slide-to="7" data-bs-slide-to="7">
-                                
-                            </div>
-                        </div><div class="carousel-item slider-image item">
-                            <div class="item-wrapper">
-                                
-                                <img class="d-block w-100" src="assets/images/img-504-1600x1067.jpg" alt="Mobirise Website Builder" data-slide-to="8" data-bs-slide-to="8">
-                                
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <a class="carousel-control carousel-control-prev" role="button" data-slide="prev" data-bs-slide="prev" href="#tWcLtlJCRr">
-                        <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
-                        <span class="sr-only visually-hidden">Previous</span>
-                    </a>
-                    <a class="carousel-control carousel-control-next" role="button" data-slide="next" data-bs-slide="next" href="#tWcLtlJCRr">
-                        <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
-                        <span class="sr-only visually-hidden">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section data-bs-version="5.1" class="features11 cid-tW1KfqaYEP" id="features11-9">
-    <!---->
-    
 
-    
-    
-    <div class="container">
-        <div class="title">
-            <h3 class="mbr-section-title mbr-fonts-style mb-4 display-2">
-                <strong>Artículos</strong></h3>
-            
-        </div>
-        <div class="item features-image">
-            <div class="item-wrapper">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3">
-                        <div class="image-wrapper">
-                            <img src="assets/images/revista10-320x251.png" alt="" title="">
-                        </div>
-                    </div>
-                    <div class="col-12 col-md">
-                        <div class="card-box">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="top-line">
-                                        <h4 class="card-title mbr-fonts-style display-5"><strong>Trayectorias escolares en el nivel medio superior: el caso de una institución pública</strong></h4>
-                                        <p class="cost mbr-fonts-style display-5"></p>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="bottom-line">
-                                        <p class="mbr-text mbr-fonts-style m-0 display-7">
-                                            Este reporte de investigación busca caracterizar la trayectoria escolar de 513 estudiantes de una institución pública del nivel medio superior localizada en Tlaxcala, México, a partir del análisis de la estructura familiar, su eficiencia y el promedio. Se hallaron cuatro tipos de trayectorias escolares: óptima, aceptable, en rezago y en riesgo. La mayor parte de los estudiantes se ubicó en las trayectorias aceptable y óptima. Las trayectorias en rezago y en riesgo están constituidas principalmente por mujeres. El conocimiento de las problemáticas que enfrenta el estudiante durante su trayecto escolar permite a los docentes y directivos establecer estrategias de intervención para la acreditación y el trabajo en el aula.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item features-image">
-            <div class="item-wrapper">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3">
-                        <div class="image-wrapper">
-                            <img src="assets/images/revista8-200x112.jpg" alt="" title="">
-                        </div>
-                    </div>
-                    <div class="col-12 col-md">
-                        <div class="card-box">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="top-line">
-                                        <h4 class="card-title mbr-fonts-style display-5"><strong>ESTUDIANTES, EGRESADOS E ITINERARIOS LABORALES: EXPERIENCIAS Y RETOS NACIONALES E INTERNACIONALES</strong></h4>
-                                        <p class="cost mbr-fonts-style display-5"></p>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="bottom-line">
-                                        <p class="mbr-text mbr-fonts-style m-0 display-7">
-                                            En este artículo se presenta un estudio de egresados y otro de empleadores del programa educativo de la maestría en Educación de la Universidad Autónoma de Tlaxcala (UATX). Se tomó como punto de partida para ambos instrumentos el propuesto por la Asociación Nacional de Universidades e Instituciones de Educación Superior (ANUIES) y se adaptó al contexto de su aplicación. El grupo de egresados estuvo compuesto por una muestra de 34 alumnos de las generaciones de 2003-2010, en tanto que para el estudio de empleadores se consideraron 12 que tuvieran por lo menos un estudiante de la UATX bajo su mando. Se comparó el nivel de desarrollo de las competencias genéricas y específicas adquiridas en la universidad a partir de la opinión de los egresados y empleadores por medio de una escala Lickert de cuatro grados. Los resultados muestran que las competencias genéricas y específicas son valoradas en un buen nivel por los exalumnos, sin embargo, en el caso de los empleadores, se encontraron indicios de que el nivel de desarrollo no es tan elevado en las competencias de gestión e investigación. Se concluye que la utilización de un mecanismo de evaluación de graduados no es suficiente para evaluar un programa educativo, por lo que resulta indispensable el empleo de dos de ellos con la finalidad de obtener una visión más completa del desempeño de los universitarios dentro del mercado laboral.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="item features-image mb-4 col-12 col-md-">
-            <div class="item-wrapper">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3">
-                        <div class="image-wrapper">
-                            <img src="assets/images/revista7-213x320.png" alt="" title="">
-                        </div>
-                    </div>
-                    <div class="col-12 col-md">
-                        <div class="card-box">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="top-line">
-                                        <h4 class="card-title mbr-fonts-style display-5"><strong>INVESTIGACIÓN EN EDUCACIÓN Y VALORES: ÉTICA, CIUDADANÍA Y DERECHOS HUMANOS</strong></h4>
-                                        <p class="cost mbr-fonts-style display-5"></p>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="bottom-line">
-                                        <p class="mbr-text mbr-fonts-style m-0 display-7">
-                                            En esta investigación se presentan resultados parciales de una investigación financiada por PRODEP a la Red de Investigadores RIEICA (Red de Investigación de Excelencia Académica) en donde se aplicó un instrumento para encontrar los indicadores que definen el perfil del docente, previo a la construcción de una escala que se está realizando para validar en universidades mexicanas y españolas. Se presentan los resultados de la primera pregunta abierta, la cual de refiere a las expectativas que definen el perfil de un docente con indicadores de excelencia académica desde las percepciones de los estudiantes de licenciatura y posgrado y docentes de licenciatura y posgrado de la Facultad de Ciencias de la Educación. Participaron en el estudio 250 actores educativos de manera proporcional entre los estudiantes de los programas académicos y los docentes de licenciatura y posgrado. Entre los principales hallazgos de los resultados obtenidos encontramos que existe una semejanza entre los indicadores del saber ser, ya que todos los grupos le dan una mayor ponderación a los valores éticos, la responsabilidad, la creatividad, la actitud propositiva, la vocación, la pasión por el trabajo y el trabajo colaborativo, entre otras, lo que implica que la identidad con la profesión es muy importante para todos los actores para la definición de la excelencia académica.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<section data-bs-version="5.1" class="image1 cid-sFF75ZhH2d" id="image1-b">
-    
 
-    
-
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-6">
-                <div class="image-wrapper">
-                    <img src="assets/images/img-459-1256x837.jpg" alt="">
-                    
-                </div>
-            </div>
-            <div class="col-12 col-lg">
-                <div class="text-wrapper">
-                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-2"><strong>Síntesis curricular</strong></h3>
-                    <p class="mbr-text mbr-fonts-style display-7">Maestro y Doctor en Educación por la Universidad Autónoma de Tlaxcala. Ha sido coordinador de la Maestría en Educación y actualmente es coordinador del Doctorado en Investigación Educativa. Sus principales líneas de investigación son: formación y evaluación en la educación. Estudios de trayectorias y egresados. Uso de las TIC en educación.
-<br>
-<br>
-<br>Ha publicado en diversas revistas indexadas como Perfiles Educativos, Revista Electrónica de Investigación Educativa, Revista Iberoamericana de Educación Superior, Revista de la Educación Superior, Revista Lasallista de Investigación, Revista Iberoamericana de Educación y EDUCARE. Ha participado como ponente en congresos nacionales e internacionales y ha participado en proyectos nacionales (RIEICA) e internacionales (ERASMUS-ECALFOR). Es miembro asociado del Consejo Mexicano de Investigación Educativa (COMIE) y de la Association Francophone Internationale de Recherche Scientifique en Education (AFIRSE). Es autor del libro “Trayectorias de egresados de Ciencias de la Comunicación”. Ha realizado diversos trabajos de apoyo a la docencia para la Universidad Autónoma de Tlaxcala y ha impartido talleres para la Elaboración de proyectos, Diseño de Instrumentos de Evaluación, Diseño de Programas de Seguimiento de Egresados y Diseño de Portafolios en varias Instituciones de Educación Superior y Media Superior. HA participado en proyectos nacionales de Actualmente, forma parte del Sistema Nacional de Investigadores (SNI) en el nivel I.
-<br>
-<br>Es docente-investigador en el Centro de Investigación Educativa de la UATx y forma parte del Cuerpo Académico Consolidado “Procesos Educativos”. Imparte los seminarios de estado del arte y definición del objeto de estudio y desempeño docente en el programa de maestría y el seminario de análisis de estados del arte de diversos campos temáticos en el programa de doctorado.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="gallery6 mbr-gallery cid-tW1Grf48HF" id="gallery6-6">
-    
-
-    
-    
-
-    <div class="container">
-        
-        <div class="row mbr-gallery mt-4">
-            
-            
-            
-            <div class="col-12 col-md-6 col-lg-3 item gallery-image active">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/cpu-258x153.png" alt="Mobirise Website Builder" data-slide-to="0" data-bs-slide-to="0" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/dfgfrg-509x106.png" alt="Mobirise Website Builder" data-slide-to="1" data-bs-slide-to="1" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/eeeeeee-117x92.png" alt="Mobirise Website Builder" data-slide-to="2" data-bs-slide-to="2" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/dtgry-212x110.png" alt="Mobirise Website Builder" data-slide-to="3" data-bs-slide-to="3" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/gtgh-961x123.png" alt="Mobirise Website Builder" data-slide-to="4" data-bs-slide-to="4" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/logo-2-310x240.png" alt="Mobirise Website Builder" data-slide-to="5" data-bs-slide-to="5" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/looo-828x144.png" alt="Mobirise Website Builder" data-slide-to="6" data-bs-slide-to="6" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/re-sinectica-350x130.jpg" alt="Mobirise Website Builder" data-slide-to="7" data-bs-slide-to="7" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div><div class="col-12 col-md-6 col-lg-3 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#tWcLtn38Lj-modal" data-bs-target="#tWcLtn38Lj-modal">
-                    <img class="w-100" src="assets/images/revista-inv-educ-368x111.png" alt="Mobirise Website Builder" data-slide-to="8" data-bs-slide-to="8" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj">
-                    <div class="icon-wrapper">
-                        <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-
-        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="tWcLtn38Lj-modal">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="carousel slide" id="lb-tWcLtn38Lj" data-interval="5000" data-bs-interval="5000">
-                            <div class="carousel-inner">
-                                
-                                
-                                
-                                <div class="carousel-item active">
-                                    <img class="d-block w-100" src="assets/images/cpu-258x153.png" alt="Mobirise Website Builder">
-                                </div><div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/dfgfrg-509x106.png" alt="Mobirise Website Builder">
-                                </div><div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/eeeeeee-117x92.png" alt="Mobirise Website Builder">
-                                </div><div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/dtgry-212x110.png" alt="Mobirise Website Builder">
-                                </div><div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/gtgh-961x123.png" alt="Mobirise Website Builder">
-                                </div><div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/logo-2-310x240.png" alt="Mobirise Website Builder">
-                                </div><div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/looo-828x144.png" alt="Mobirise Website Builder">
-                                </div><div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/re-sinectica-350x130.jpg" alt="Mobirise Website Builder">
-                                </div><div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/images/revista-inv-educ-368x111.png" alt="Mobirise Website Builder">
-                                </div>
-                            </div>
-                            <ol class="carousel-indicators">
-                                <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li><li data-slide-to="1" data-bs-slide-to="1" class="" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li><li data-slide-to="2" data-bs-slide-to="2" class="" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li><li data-slide-to="3" data-bs-slide-to="3" class="" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li><li data-slide-to="4" data-bs-slide-to="4" class="" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li><li data-slide-to="5" data-bs-slide-to="5" class="" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li><li data-slide-to="6" data-bs-slide-to="6" class="" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li><li data-slide-to="7" data-bs-slide-to="7" class="" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li><li data-slide-to="8" data-bs-slide-to="8" class="" data-target="#lb-tWcLtn38Lj" data-bs-target="#lb-tWcLtn38Lj"></li>
-                                
-                                
-                                
-                            </ol>
-                            <a role="button" href="" class="close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close">
-                            </a>
-                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" data-bs-slide="prev" href="#lb-tWcLtn38Lj">
-                                <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
-                                <span class="sr-only visually-hidden">Previous</span>
-                            </a>
-                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" data-bs-slide="next" href="#lb-tWcLtn38Lj">
-                                <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
-                                <span class="sr-only visually-hidden">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section data-bs-version="5.1" class="contacts2 cid-sFF3B84VW8" id="contacts2-8">
     <!---->
@@ -518,7 +280,10 @@
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/417931" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/html-builder.html">HTML Website Maker</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section>
+
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
+
   
   
 </body>
